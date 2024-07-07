@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/pexels-quang-nguyen-vinh-222549-2582819.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 7rem;
+
+
+
+}
+.container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+
+}
+.nav-bar{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo, .widgets{
+    width: 10%;
+    height: 90%;
+    background-color: rgb(89, 169, 121);
+}
+.content{
+    height: 85%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+
+
+}
+.left >p{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    font-size: 60px;
+    font-weight: 800;    
+    color: white
+    
+
+    
+    
+}
+
+#shop-btn{
+    position: absolute;
+    top: 15rem;
+    left: 0rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(118, 187, 79);
+    color: white;
+    font-size: 20px;
+
+}
+#see-more{
+    position: absolute;
+    bottom: 3rem;
+    left: 0rem;
+    color: rgb(217, 217, 217);
+    font-size: 30px;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: relative;
+
+}
+.right > p{
+    position: absolute;
+    color: white;
+    top: 16rem;
+    left: 6rem;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+#smaller-pic{
+    position: absolute;
+    bottom: 0rem;
+    right: 30rem;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+#larger-pic{
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 65%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
